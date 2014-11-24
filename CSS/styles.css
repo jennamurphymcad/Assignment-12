@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-ol, ul {
+ul, ol {
   list-style: none; }
 
 blockquote, q {
@@ -71,8 +71,25 @@ h2 {
 Header h1 + h2 {
   font-family: times, serif; }
 
-h3 {
-  font-family: 'Minion Pro', serif; }
+nav li {
+  font-size: 1.25em;
+  font-family: Helveltica, sans-serif;
+  font-weight: bold; }
+nav li a {
+  background-color: #2980B9;
+  color: #2C3E50;
+  text-decoration: none; }
+nav li a:hover {
+  text-decoration: none; }
+
+section article header h2 {
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px 0px 0px 0px; }
+section article header h3 {
+  font-size: 1.5em;
+  font-family: 'Minion Pro', serif;
+  padding: 10px 0px; }
 
 * {
   -webkit-border-radius: 15px;
@@ -104,21 +121,28 @@ nav {
   margin: 40px 0px 100px 0px; }
   nav li {
     float: left;
-    font-size: 1.25em;
-    padding-right: 30px;
-    font-family: Helveltica, sans-serif;
-    font-weight: bold; }
+    padding-right: 30px; }
   nav li a {
-    background-color: #2980B9;
-    padding: .5em;
-    color: #2C3E50;
-    text-decoration: none; }
-  nav li a:hover {
-    text-decoration: none; }
+    padding: .5em; }
 
 section {
   margin-top: 50px; }
   section h1 {
     clear: both; }
+
+section article {
+  text-align: justify; }
+  section article header h2 {
+    padding: 20px 0px 0px 0px; }
+  section article header h3 {
+    padding: 10px 0px; }
+  section article p {
+    padding-bottom: 10px; }
+  section article ul {
+    list-style-type: disc;
+    text-align: left;
+    padding: 10px 30px; }
+    section article ul li {
+      padding-bottom: 10px; }
 
 /*# sourceMappingURL=styles.css.map */
