@@ -71,16 +71,25 @@ h2 {
 Header h1 + h2 {
   font-family: times, serif; }
 
-nav li {
+body header nav li {
   font-size: 1.25em;
   font-family: Helveltica, sans-serif;
   font-weight: bold; }
-nav li a {
+body header nav li a {
   background-color: #2980B9;
   color: #2C3E50;
   text-decoration: none; }
-nav li a:hover {
+body header nav li a:hover {
   text-decoration: none; }
+
+footer {
+  font-size: 70%; }
+  footer h1 {
+    text-transform: lowercase; }
+  footer nav li a {
+    text-decoration: none; }
+  footer nav li a:visited {
+    color: #ECF0F1; }
 
 section article {
   text-align: justify; }
@@ -125,13 +134,20 @@ article {
   padding: 20px;
   margin: 30px 0px; }
 
-nav {
+body header nav {
   margin: 40px 0px 100px 0px; }
-  nav li {
+  body header nav li {
     float: left;
     padding-right: 30px; }
-  nav li a {
+  body header nav li a {
     padding: .5em; }
+
+footer {
+  padding: 40px 0px 30px 0px; }
+  footer h1, footer h2, footer nav, footer nav li {
+    float: left; }
+  footer nav li {
+    padding: 0px 20px; }
 
 section {
   margin-top: 50px; }
