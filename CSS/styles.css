@@ -82,14 +82,22 @@ nav li a {
 nav li a:hover {
   text-decoration: none; }
 
-section article header h2 {
-  font-size: 2em;
-  font-weight: bold;
-  padding: 20px 0px 0px 0px; }
-section article header h3 {
-  font-size: 1.5em;
-  font-family: 'Minion Pro', serif;
-  padding: 10px 0px; }
+section article {
+  text-align: justify; }
+  section article header h2 {
+    font-size: 2em;
+    font-weight: bold; }
+  section article header h3 {
+    font-size: 1.5em;
+    font-family: 'Minion Pro', serif; }
+  section article ul {
+    text-align: left; }
+  section article ol {
+    text-align: left; }
+  section article blockquote {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px 20px 20px 20px; }
 
 * {
   -webkit-border-radius: 15px;
@@ -130,23 +138,19 @@ section {
   section h1 {
     clear: both; }
 
-section article {
-  text-align: justify; }
-  section article header h2 {
-    padding: 20px 0px 0px 0px; }
-  section article header h3 {
-    padding: 10px 0px; }
-  section article p {
+section article header h2 {
+  padding: 20px 0px 0px 0px; }
+section article header h3 {
+  padding: 10px 0px; }
+section article p {
+  padding-bottom: 10px; }
+section article ul {
+  list-style-type: disc;
+  padding: 10px 30px; }
+  section article ul li {
     padding-bottom: 10px; }
-  section article ul {
-    list-style-type: disc;
-    text-align: left;
-    padding: 10px 30px; }
-    section article ul li {
-      padding-bottom: 10px; }
-  section article ol {
-    list-style-type: decimal;
-    padding: 0px 30px 10px 30px;
-    text-align: left; }
+section article ol {
+  list-style-type: decimal;
+  padding: 0px 30px 10px 30px; }
 
 /*# sourceMappingURL=styles.css.map */
