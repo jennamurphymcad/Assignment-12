@@ -144,5 +144,9 @@ section article {
     padding: 10px 30px; }
     section article ul li {
       padding-bottom: 10px; }
+  section article ol {
+    list-style-type: decimal;
+    padding: 0px 30px 10px 30px;
+    text-align: left; }
 
 /*# sourceMappingURL=styles.css.map */
